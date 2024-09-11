@@ -49,7 +49,3 @@ Se ha realizado un diseño gráfico limpio, enfocado en la simplicidad y en la u
 - Sistema operativo Windows, Mac OS o Linux
 
 ## Instalación y Ejecución
-
-1. Clona el repositorio en tu máquina local.
-   ```bash
-   git clone 
