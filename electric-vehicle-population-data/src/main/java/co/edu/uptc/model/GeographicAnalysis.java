@@ -11,6 +11,8 @@ public class GeographicAnalysis {
         // Lógica para obtener la cantidad de registros por estado
         return null; // Retorna una lista de registros
     }
+
+    //jose la tiene pequeña
     public TableModel createTableModelFromList(List<String> records) {
     String[] columnNames = {"County"};
     Object[][] data = new Object[records.size()][1];
