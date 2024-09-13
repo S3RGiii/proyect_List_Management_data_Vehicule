@@ -5,9 +5,11 @@ import java.util.List;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
 
+import co.edu.uptc.utils.MyList;
+
 public class GeographicAnalysis {
     
-    public List<String> getRecordsByState() {
+    public MyList<String> getRecordsByState() {
         // Lógica para obtener la cantidad de registros por estado
         return null; // Retorna una lista de registros
     }
