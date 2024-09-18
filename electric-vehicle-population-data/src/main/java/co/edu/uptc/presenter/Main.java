@@ -10,6 +10,5 @@ public class Main {
         GeographicAnalysis model = new GeographicAnalysis();
         MainView view = new MainView();
         Presenter presenter = new Presenter(model, view);
-        view.setVisible(true);
     }
 }

@@ -35,9 +35,11 @@ public class Presenter {
             Root root = objectMapper.readValue(data, Root.class);
             String info="";
             for (ArrayList<Object> dates : root.data) {
-              for (int i = 3; i <= 17; i++) {
+              for (int i = 1; i <= 17; i++) {
+                info="null";
                 if (dates.get(i)!=null) {
                      info=  dates.get(i).toString();
+                     info+= " "+i;
 
                     
                 }
