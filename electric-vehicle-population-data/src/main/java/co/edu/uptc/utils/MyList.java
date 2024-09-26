@@ -8,6 +8,16 @@ import java.util.ListIterator;
 public class MyList<E> implements List<E> {
     private Node<E> head;
 
+
+    public Node getHead() {
+        return head;
+    }
+    public void setHead(Node head) {
+        this.head = head;
+    }
+
+  
+
     @Override
     public boolean add(E e) {
         if (isEmpty()) {

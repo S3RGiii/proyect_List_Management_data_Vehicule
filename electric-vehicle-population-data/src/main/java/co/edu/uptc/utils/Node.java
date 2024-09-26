@@ -1,32 +1,32 @@
 package co.edu.uptc.utils;
 
 public class Node<T> {
-    T data;
-    Node next;
+    private T data;
+    private Node<T> next;  // Corregido a Node<T> para manejar el tipo genérico
 
     public Node(T data) {
         this.data = data;
-        next = null;
+        this.next = null;
     }
 
     public T getData() {
         return data;
     }
 
-    public Node getNext() {
+    public Node<T> getNext() {
         return next;
     }
 
-    public void setNext(Node next) {
+    public void setNext(Node<T> next) {
         this.next = next;
-    }
-
-    public String toString() {
-        return data + "\n -> \n" + next;
     }
 
     public void setData(T data) {
         this.data = data;
     }
 
+    @Override
+    public String toString() {
+        return data + " -> " + (next != null ? next.toString() : "null");
+    }
 }
